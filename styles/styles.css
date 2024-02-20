@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(240, 233, 233);
+}
+.todo-wrapper {
+  width: 770px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 1.925rem;
+  line-height: 1.75rem;
+}
+p {
+  font-size: 15px;
+  display: inline-block;
+  background: #d4d3d3;
+  margin-top: 7px;
+  margin-bottom: 60px;
+}
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+#name {
+  width: 80%;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+form button {
+  background: transparent;
+  border: 2px solid #39d4f5;
+  border-radius: 6px;
+  padding: 10px;
+  color: #39d4f5;
+  /* cursor: pointer; */
+  width: 15%;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+form button:hover {
+  background: #39d4f5;
+  color: white;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+table thead tr {
+  border-bottom: 2px solid black;
+}
+thead th {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+tbody tr {
+  border-bottom: 2px solid #dbe0e4;
+}
+tbody td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#buton-todo {
+  width: 60px;
+  padding: 8px;
+  border-radius: 3px;
+  border-color: #dbe0e4;
+  color: #95999b;
+  background-color: #fff;
+}
+#buton-progres {
+  width: 105px;
+  padding: 8px;
+  border-radius: 3px;
+  border-color: #d6c878;
+  color: #e5d059;
+  background-color: #fff;
+}
+#edit i {
+  border: 2px solid #39d4f5;
+  width: 35px;
+  height: 35px;
+  padding-top: 7px;
+  border-radius: 6px;
+  color: #39d4f5;
+}
+#delet i {
+  border: 2px solid #dbe0e4;
+  width: 35px;
+  height: 35px;
+  padding-top: 7px;
+  border-radius: 6px;
+  color: rgb(19, 18, 18);
+}
+
+td i {
+  cursor: pointer;
+}
